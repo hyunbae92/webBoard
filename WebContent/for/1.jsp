@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ include file="/for/common.jsp" %>
 <%
-// <%@ <-- 디렉티브
-// <%  <-- 스크립트릿
-// <%= <-- (익스프레션)표현식
-// <%! <-- (디클레이션)선언부
+// <%@ <-- Directive(설명서)
+// <%  <-- Scriptlet(실행부)
+// <%= <-- Expression(표현식)
+// <%! <-- Declaration(선언부)
 %>
 <!DOCTYPE html>
 <html>
@@ -13,9 +14,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<%
-
-%>
+1.jsp
+<%=str%>
 </body>
 </html>
